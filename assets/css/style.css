@@ -1,18 +1,52 @@
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-body {
-  background-color: rgb(34, 34, 34);
-  color: white;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 15px;
-}
-
-.flex-container {
-  display: flex;
+body{
   flex-wrap: wrap;
+  background-color: rgb(87 83 78);
+  color: white;
+  font-family: poppinsregular;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Topo da página */
+header{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+li{
+  display: inline-block;
+  margin: 20px;
+  font-size: 20px;
+}
+
+/* Parte principal da página */
+main {
+  display: flex;
+  justify-content: wrap;
+  flex-direction: row;
+}
+
+aside {
+  font-size: medium;
+}
+
+img {
+  width: 300px;
+}
+
+/* Rodapé */
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Efeitos ao passar o mouse */
+a{
+  color: white;
+}
+
+a:hover{
+  color: rgb(74, 41, 218);
+  transition: 0.3s all;
 }
