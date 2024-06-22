@@ -44,10 +44,17 @@ img {
   width: 300px;
 }
 
+address {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 300px;
+}
+
 /* Rodapé */
 footer {
   display: flex;
-  justify-content: flex-end;
+  justify-content:center;
 }
 
 /* Efeitos ao passar o mouse */
