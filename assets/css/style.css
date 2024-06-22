@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
   flex-wrap: wrap;
   background-color: rgb(87 83 78);
@@ -11,7 +17,6 @@ body{
 header{
   display: flex;
   justify-content: space-around;
-  
 }
 
 li{
@@ -28,7 +33,11 @@ main {
 }
 
 aside {
-  font-size: medium;
+  margin: auto;
+}
+
+p {
+  margin: 15px;
 }
 
 img {
